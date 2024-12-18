@@ -17,6 +17,6 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
-.theme-dark .header__record-badge {
+.theme_dark .header__record-badge {
   display: flex;
 }

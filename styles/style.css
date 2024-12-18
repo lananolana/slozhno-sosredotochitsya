@@ -13,6 +13,7 @@
   justify-items: end;
   align-items: center;
   block-size: 100vh;
+  min-height: 668px;
   padding: var(--main-gap);
 
   @media (width >= 768px) {
@@ -248,6 +249,7 @@
   position: relative;
   flex-direction: column;
   block-size: 100vh;
+  min-height: 668px;
   place-content: center;
 }
 
@@ -272,11 +274,11 @@
     grid-template-columns: 1fr 2fr;
   }
 
-  .gallery-item__row {
+  .gallery-item__regular {
     grid-column-end: span 2;
   }
 
-  .gallery-item__column {
+  .gallery-item__special {
     grid-row-end: span 2;
   }
 }
