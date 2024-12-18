@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme-dark {
+.page.theme_dark {
   --background-color: #000028;
   --accent-color: #ff0070;
   --nav-color: #ff0070;
@@ -18,5 +18,5 @@
 }
 
 .theme-dark .header__record-badge {
-  display: block;
+  display: flex;
 }
