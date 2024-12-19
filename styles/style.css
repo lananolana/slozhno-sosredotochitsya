@@ -187,6 +187,9 @@
 
 .article-content,
 .list-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   color: var(--text-color);
 }
 
